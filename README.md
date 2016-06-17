@@ -1,2 +1,2 @@
 ## Framo
-A PHP framework based on Symfony component build for experiment, won't be used for any commercial projects
+A PHP framework based on Symfony component build for learning purpose, not for any commercial projects
