@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class IndexTest extends PHPUnit_Framework_TestCase
 {
@@ -8,10 +8,10 @@ class IndexTest extends PHPUnit_Framework_TestCase
 
 		ob_start();
 
-		include('index.php');
+		include('web/front.php');
 
 		$content = ob_get_clean();
 
-        $this->assertEquals('Hello Meathanjay', $content);
+        $this->assertContains('Meathanjay', $content);
 	}
 }
